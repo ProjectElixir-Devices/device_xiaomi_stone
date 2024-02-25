@@ -41,9 +41,3 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="husky-user 14 UQ1A.231205.015 11084887 release-keys"
-
-BUILD_FINGERPRINT := "google/husky/husky:14/UQ1A.231205.015/11084887:user/release-keys"
-
