@@ -16,3 +16,7 @@ git clone https://github.com/Evolution-X/hardware_xiaomi.git -b udc hardware/xia
 # Clone Kernel source
 rm -rf kernel/xiaomi/sm6375
 git clone https://github.com/ProjectElixir-Devices/kernel_xiaomi_sm6375-stone.git -b 14.0 kernel/xiaomi/sm6375
+
+# Aosp 17.0.4 Clang
+rm -rf prebuilts/clang/host/linux-x86/r498229b
+git clone --depth=1 https://gitlab.com/itsshashanksp/android_prebuilts_clang_host_linux-x86_clang-r498229b.git -b 13.0 prebuilts/clang/host/linux-x86/r498229b
