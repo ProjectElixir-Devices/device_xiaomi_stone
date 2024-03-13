@@ -11,6 +11,7 @@ rm -rf packages/apps/ViPER4AndroidFX
 git clone --depth=1 https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git -b v4a packages/apps/ViPER4AndroidFX
 
 # Clone hardware xiaomi
+rm -rf hardware/xiaomi
 git clone https://github.com/Evolution-X/hardware_xiaomi.git -b udc hardware/xiaomi
 
 # Clone Kernel source
