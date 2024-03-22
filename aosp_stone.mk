@@ -16,7 +16,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/stone/device.mk)
 
 # Elixir props
-TARGET_SUPPORTS_BLUR := true
+#TARGET_SUPPORTS_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_DISABLE_EPPE := true
@@ -29,6 +29,7 @@ BUILD_USERNAME := ARIJIT-SAHA
 BUILD_HOSTNAME := Elixir
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_CALL_RECORDING := true
+EXCLUDE_LAWNCHAIR := true
 
 # Charging Animation
 TARGET_USE_PIXEL_CHARGER := true
